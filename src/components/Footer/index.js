@@ -42,16 +42,15 @@ const Footer = () => {
       </form>
       <div className="flex items-center mt-8">
         <a
-          href={siteMetadata.linkedin}
+          href="/"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via LinkedIn"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href={siteMetadata.twitter}
+          href="/"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via Twitter"
           target="_blank"
@@ -60,19 +59,17 @@ const Footer = () => {
           <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href={siteMetadata.github}
+          href="/"
           className="inline-block w-6 h-6 mr-4 fill-light"
           aria-label="Check my profile on Github"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href={siteMetadata.dribbble}
+          href="/"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Check my profile on Dribbble"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
@@ -81,7 +78,7 @@ const Footer = () => {
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 Baasir. All rights reserved.
+          &copy;2023 Salman. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"
@@ -92,7 +89,7 @@ const Footer = () => {
         <div className="text-center">
           Made with &hearts; by{" "}
           <a href="https://devdreaming.com" className="underline" target="_blank">
-            Baasir
+            Salman
           </a>
         </div>
       </div>
